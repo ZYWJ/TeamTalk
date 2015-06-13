@@ -7,6 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		49FBCECD1B29DE3200ABE59F /* IMBaseDefine.pb.m in Sources */ = {isa = PBXBuildFile; fileRef = 49FBCEBC1B29DE3200ABE59F /* IMBaseDefine.pb.m */; };
+		49FBCECE1B29DE3200ABE59F /* IMBuddy.pb.m in Sources */ = {isa = PBXBuildFile; fileRef = 49FBCEBE1B29DE3200ABE59F /* IMBuddy.pb.m */; };
+		49FBCECF1B29DE3200ABE59F /* IMFile.pb.m in Sources */ = {isa = PBXBuildFile; fileRef = 49FBCEC01B29DE3200ABE59F /* IMFile.pb.m */; };
+		49FBCED01B29DE3200ABE59F /* IMGroup.pb.m in Sources */ = {isa = PBXBuildFile; fileRef = 49FBCEC21B29DE3200ABE59F /* IMGroup.pb.m */; };
+		49FBCED11B29DE3200ABE59F /* IMLogin.pb.m in Sources */ = {isa = PBXBuildFile; fileRef = 49FBCEC41B29DE3200ABE59F /* IMLogin.pb.m */; };
+		49FBCED21B29DE3200ABE59F /* IMMessage.pb.m in Sources */ = {isa = PBXBuildFile; fileRef = 49FBCEC61B29DE3200ABE59F /* IMMessage.pb.m */; };
+		49FBCED31B29DE3200ABE59F /* IMOther.pb.m in Sources */ = {isa = PBXBuildFile; fileRef = 49FBCEC81B29DE3200ABE59F /* IMOther.pb.m */; };
+		49FBCED41B29DE3200ABE59F /* IMServer.pb.m in Sources */ = {isa = PBXBuildFile; fileRef = 49FBCECA1B29DE3200ABE59F /* IMServer.pb.m */; };
+		49FBCED51B29DE3200ABE59F /* IMSwitchService.pb.m in Sources */ = {isa = PBXBuildFile; fileRef = 49FBCECC1B29DE3200ABE59F /* IMSwitchService.pb.m */; };
+		49FBCFA61B2BDE2800ABE59F /* AbstractMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 49FBCF741B2BDE2800ABE59F /* AbstractMessage.m */; };
+		49FBCFA71B2BDE2800ABE59F /* AbstractMessageBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 49FBCF761B2BDE2800ABE59F /* AbstractMessageBuilder.m */; };
+		49FBCFA81B2BDE2800ABE59F /* CodedInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 49FBCF791B2BDE2800ABE59F /* CodedInputStream.m */; };
+		49FBCFA91B2BDE2800ABE59F /* CodedOutputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 49FBCF7B1B2BDE2800ABE59F /* CodedOutputStream.m */; };
+		49FBCFAA1B2BDE2800ABE59F /* ConcreteExtensionField.m in Sources */ = {isa = PBXBuildFile; fileRef = 49FBCF7D1B2BDE2800ABE59F /* ConcreteExtensionField.m */; };
+		49FBCFAB1B2BDE2800ABE59F /* Descriptor.pb.m in Sources */ = {isa = PBXBuildFile; fileRef = 49FBCF7F1B2BDE2800ABE59F /* Descriptor.pb.m */; };
+		49FBCFAC1B2BDE2800ABE59F /* ExtendableMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 49FBCF811B2BDE2800ABE59F /* ExtendableMessage.m */; };
+		49FBCFAD1B2BDE2800ABE59F /* ExtendableMessageBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 49FBCF831B2BDE2800ABE59F /* ExtendableMessageBuilder.m */; };
+		49FBCFAE1B2BDE2800ABE59F /* ExtensionRegistry.m in Sources */ = {isa = PBXBuildFile; fileRef = 49FBCF861B2BDE2800ABE59F /* ExtensionRegistry.m */; };
+		49FBCFAF1B2BDE2800ABE59F /* Field.m in Sources */ = {isa = PBXBuildFile; fileRef = 49FBCF881B2BDE2800ABE59F /* Field.m */; };
+		49FBCFB01B2BDE2800ABE59F /* GeneratedMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 49FBCF8B1B2BDE2800ABE59F /* GeneratedMessage.m */; };
+		49FBCFB11B2BDE2800ABE59F /* GeneratedMessageBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 49FBCF8D1B2BDE2800ABE59F /* GeneratedMessageBuilder.m */; };
+		49FBCFB21B2BDE2800ABE59F /* MutableExtensionRegistry.m in Sources */ = {isa = PBXBuildFile; fileRef = 49FBCF911B2BDE2800ABE59F /* MutableExtensionRegistry.m */; };
+		49FBCFB31B2BDE2800ABE59F /* MutableField.m in Sources */ = {isa = PBXBuildFile; fileRef = 49FBCF931B2BDE2800ABE59F /* MutableField.m */; };
+		49FBCFB41B2BDE2800ABE59F /* ObjectivecDescriptor.pb.m in Sources */ = {isa = PBXBuildFile; fileRef = 49FBCF951B2BDE2800ABE59F /* ObjectivecDescriptor.pb.m */; };
+		49FBCFB51B2BDE2800ABE59F /* PBArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 49FBCF971B2BDE2800ABE59F /* PBArray.m */; };
+		49FBCFB61B2BDE2800ABE59F /* RingBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = 49FBCF9A1B2BDE2800ABE59F /* RingBuffer.m */; };
+		49FBCFB71B2BDE2800ABE59F /* TextFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 49FBCF9C1B2BDE2800ABE59F /* TextFormat.m */; };
+		49FBCFB81B2BDE2800ABE59F /* UnknownFieldSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 49FBCF9E1B2BDE2800ABE59F /* UnknownFieldSet.m */; };
+		49FBCFB91B2BDE2800ABE59F /* UnknownFieldSetBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 49FBCFA01B2BDE2800ABE59F /* UnknownFieldSetBuilder.m */; };
+		49FBCFBA1B2BDE2800ABE59F /* Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 49FBCFA31B2BDE2800ABE59F /* Utilities.m */; };
+		49FBCFBB1B2BDE2800ABE59F /* WireFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 49FBCFA51B2BDE2800ABE59F /* WireFormat.m */; };
 		4C0C0F0C1A314E060094CCD2 /* SessionModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C0C0F0B1A314E060094CCD2 /* SessionModule.m */; };
 		4C12E7F51A77920A00F1DD54 /* Launch Screen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C12E7F41A77920A00F1DD54 /* Launch Screen.xib */; };
 		4C1CEEC81A3581160015C355 /* GetMessageQueueAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C1CEEC71A3581160015C355 /* GetMessageQueueAPI.m */; };
@@ -79,12 +110,6 @@
 		4C77C2921A8852F8001E5885 /* ScanQRCodePage.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C77C2901A8852F8001E5885 /* ScanQRCodePage.xib */; };
 		4C77C2951A88CFEC001E5885 /* BlurView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C77C2941A88CFEC001E5885 /* BlurView.m */; };
 		4C79D2B31AB7C19200706E32 /* GetDepartment.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C79D2B21AB7C19200706E32 /* GetDepartment.m */; };
-		4C79D2C01AB7C9A500706E32 /* IMBaseDefine.pb.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C79D2B51AB7C9A500706E32 /* IMBaseDefine.pb.m */; };
-		4C79D2C11AB7C9A500706E32 /* IMBuddy.pb.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C79D2B71AB7C9A500706E32 /* IMBuddy.pb.m */; };
-		4C79D2C21AB7C9A500706E32 /* IMGroup.pb.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C79D2B91AB7C9A500706E32 /* IMGroup.pb.m */; };
-		4C79D2C31AB7C9A500706E32 /* IMLogin.pb.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C79D2BB1AB7C9A500706E32 /* IMLogin.pb.m */; };
-		4C79D2C41AB7C9A500706E32 /* IMMessage.pb.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C79D2BD1AB7C9A500706E32 /* IMMessage.pb.m */; };
-		4C79D2C51AB7C9A500706E32 /* IMOther.pb.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C79D2BF1AB7C9A500706E32 /* IMOther.pb.m */; };
 		4C837EE9197F949300C3D758 /* DDAllUserAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C837EE8197F949300C3D758 /* DDAllUserAPI.m */; };
 		4C837F38197F94F400C3D758 /* ContactsModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C837F32197F94F400C3D758 /* ContactsModule.m */; };
 		4C837F3A197F94F400C3D758 /* PublicProfileViewControll.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C837F36197F94F400C3D758 /* PublicProfileViewControll.m */; };
@@ -229,6 +254,7 @@
 		4CF7D531198A268500F0272B /* JSMessageInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF7D525198A268500F0272B /* JSMessageInputView.m */; };
 		4CF7D532198A268500F0272B /* JSMessageTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF7D527198A268500F0272B /* JSMessageTextView.m */; };
 		4CFC9FB21A4412E3002E7A5A /* MsgReadNotify.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CFC9FB11A4412E3002E7A5A /* MsgReadNotify.m */; };
+		78A6F58FCD5EF577C3429EA4 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EFE09922227481999813B37 /* libPods.a */; };
 		81B75A131A58CC090039E5B5 /* search_bar.png in Resources */ = {isa = PBXBuildFile; fileRef = 81B75A111A58CC090039E5B5 /* search_bar.png */; };
 		81B75A141A58CC090039E5B5 /* search_bar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 81B75A121A58CC090039E5B5 /* search_bar@2x.png */; };
 		81B75A161A58CC1F0039E5B5 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 81B75A151A58CC1F0039E5B5 /* logo.png */; };
@@ -393,6 +419,74 @@
 /* Begin PBXFileReference section */
 		19B78DA8A3707C0C507EF626 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		3EFE09922227481999813B37 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		49FBCEBB1B29DE3200ABE59F /* IMBaseDefine.pb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMBaseDefine.pb.h; sourceTree = "<group>"; };
+		49FBCEBC1B29DE3200ABE59F /* IMBaseDefine.pb.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMBaseDefine.pb.m; sourceTree = "<group>"; };
+		49FBCEBD1B29DE3200ABE59F /* IMBuddy.pb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMBuddy.pb.h; sourceTree = "<group>"; };
+		49FBCEBE1B29DE3200ABE59F /* IMBuddy.pb.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMBuddy.pb.m; sourceTree = "<group>"; };
+		49FBCEBF1B29DE3200ABE59F /* IMFile.pb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMFile.pb.h; sourceTree = "<group>"; };
+		49FBCEC01B29DE3200ABE59F /* IMFile.pb.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMFile.pb.m; sourceTree = "<group>"; };
+		49FBCEC11B29DE3200ABE59F /* IMGroup.pb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMGroup.pb.h; sourceTree = "<group>"; };
+		49FBCEC21B29DE3200ABE59F /* IMGroup.pb.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMGroup.pb.m; sourceTree = "<group>"; };
+		49FBCEC31B29DE3200ABE59F /* IMLogin.pb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMLogin.pb.h; sourceTree = "<group>"; };
+		49FBCEC41B29DE3200ABE59F /* IMLogin.pb.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMLogin.pb.m; sourceTree = "<group>"; };
+		49FBCEC51B29DE3200ABE59F /* IMMessage.pb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMMessage.pb.h; sourceTree = "<group>"; };
+		49FBCEC61B29DE3200ABE59F /* IMMessage.pb.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMMessage.pb.m; sourceTree = "<group>"; };
+		49FBCEC71B29DE3200ABE59F /* IMOther.pb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMOther.pb.h; sourceTree = "<group>"; };
+		49FBCEC81B29DE3200ABE59F /* IMOther.pb.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMOther.pb.m; sourceTree = "<group>"; };
+		49FBCEC91B29DE3200ABE59F /* IMServer.pb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMServer.pb.h; sourceTree = "<group>"; };
+		49FBCECA1B29DE3200ABE59F /* IMServer.pb.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMServer.pb.m; sourceTree = "<group>"; };
+		49FBCECB1B29DE3200ABE59F /* IMSwitchService.pb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMSwitchService.pb.h; sourceTree = "<group>"; };
+		49FBCECC1B29DE3200ABE59F /* IMSwitchService.pb.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMSwitchService.pb.m; sourceTree = "<group>"; };
+		49FBCF731B2BDE2800ABE59F /* AbstractMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractMessage.h; sourceTree = "<group>"; };
+		49FBCF741B2BDE2800ABE59F /* AbstractMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AbstractMessage.m; sourceTree = "<group>"; };
+		49FBCF751B2BDE2800ABE59F /* AbstractMessageBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractMessageBuilder.h; sourceTree = "<group>"; };
+		49FBCF761B2BDE2800ABE59F /* AbstractMessageBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AbstractMessageBuilder.m; sourceTree = "<group>"; };
+		49FBCF771B2BDE2800ABE59F /* Bootstrap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bootstrap.h; sourceTree = "<group>"; };
+		49FBCF781B2BDE2800ABE59F /* CodedInputStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CodedInputStream.h; sourceTree = "<group>"; };
+		49FBCF791B2BDE2800ABE59F /* CodedInputStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CodedInputStream.m; sourceTree = "<group>"; };
+		49FBCF7A1B2BDE2800ABE59F /* CodedOutputStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CodedOutputStream.h; sourceTree = "<group>"; };
+		49FBCF7B1B2BDE2800ABE59F /* CodedOutputStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CodedOutputStream.m; sourceTree = "<group>"; };
+		49FBCF7C1B2BDE2800ABE59F /* ConcreteExtensionField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConcreteExtensionField.h; sourceTree = "<group>"; };
+		49FBCF7D1B2BDE2800ABE59F /* ConcreteExtensionField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConcreteExtensionField.m; sourceTree = "<group>"; };
+		49FBCF7E1B2BDE2800ABE59F /* Descriptor.pb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Descriptor.pb.h; sourceTree = "<group>"; };
+		49FBCF7F1B2BDE2800ABE59F /* Descriptor.pb.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Descriptor.pb.m; sourceTree = "<group>"; };
+		49FBCF801B2BDE2800ABE59F /* ExtendableMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExtendableMessage.h; sourceTree = "<group>"; };
+		49FBCF811B2BDE2800ABE59F /* ExtendableMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExtendableMessage.m; sourceTree = "<group>"; };
+		49FBCF821B2BDE2800ABE59F /* ExtendableMessageBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExtendableMessageBuilder.h; sourceTree = "<group>"; };
+		49FBCF831B2BDE2800ABE59F /* ExtendableMessageBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExtendableMessageBuilder.m; sourceTree = "<group>"; };
+		49FBCF841B2BDE2800ABE59F /* ExtensionField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExtensionField.h; sourceTree = "<group>"; };
+		49FBCF851B2BDE2800ABE59F /* ExtensionRegistry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExtensionRegistry.h; sourceTree = "<group>"; };
+		49FBCF861B2BDE2800ABE59F /* ExtensionRegistry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExtensionRegistry.m; sourceTree = "<group>"; };
+		49FBCF871B2BDE2800ABE59F /* Field.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Field.h; sourceTree = "<group>"; };
+		49FBCF881B2BDE2800ABE59F /* Field.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Field.m; sourceTree = "<group>"; };
+		49FBCF891B2BDE2800ABE59F /* ForwardDeclarations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForwardDeclarations.h; sourceTree = "<group>"; };
+		49FBCF8A1B2BDE2800ABE59F /* GeneratedMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeneratedMessage.h; sourceTree = "<group>"; };
+		49FBCF8B1B2BDE2800ABE59F /* GeneratedMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeneratedMessage.m; sourceTree = "<group>"; };
+		49FBCF8C1B2BDE2800ABE59F /* GeneratedMessageBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeneratedMessageBuilder.h; sourceTree = "<group>"; };
+		49FBCF8D1B2BDE2800ABE59F /* GeneratedMessageBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeneratedMessageBuilder.m; sourceTree = "<group>"; };
+		49FBCF8E1B2BDE2800ABE59F /* Message.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Message.h; sourceTree = "<group>"; };
+		49FBCF8F1B2BDE2800ABE59F /* MessageBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageBuilder.h; sourceTree = "<group>"; };
+		49FBCF901B2BDE2800ABE59F /* MutableExtensionRegistry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MutableExtensionRegistry.h; sourceTree = "<group>"; };
+		49FBCF911B2BDE2800ABE59F /* MutableExtensionRegistry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MutableExtensionRegistry.m; sourceTree = "<group>"; };
+		49FBCF921B2BDE2800ABE59F /* MutableField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MutableField.h; sourceTree = "<group>"; };
+		49FBCF931B2BDE2800ABE59F /* MutableField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MutableField.m; sourceTree = "<group>"; };
+		49FBCF941B2BDE2800ABE59F /* ObjectivecDescriptor.pb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectivecDescriptor.pb.h; sourceTree = "<group>"; };
+		49FBCF951B2BDE2800ABE59F /* ObjectivecDescriptor.pb.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjectivecDescriptor.pb.m; sourceTree = "<group>"; };
+		49FBCF961B2BDE2800ABE59F /* PBArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBArray.h; sourceTree = "<group>"; };
+		49FBCF971B2BDE2800ABE59F /* PBArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBArray.m; sourceTree = "<group>"; };
+		49FBCF981B2BDE2800ABE59F /* ProtocolBuffers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProtocolBuffers.h; sourceTree = "<group>"; };
+		49FBCF991B2BDE2800ABE59F /* RingBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RingBuffer.h; sourceTree = "<group>"; };
+		49FBCF9A1B2BDE2800ABE59F /* RingBuffer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RingBuffer.m; sourceTree = "<group>"; };
+		49FBCF9B1B2BDE2800ABE59F /* TextFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextFormat.h; sourceTree = "<group>"; };
+		49FBCF9C1B2BDE2800ABE59F /* TextFormat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextFormat.m; sourceTree = "<group>"; };
+		49FBCF9D1B2BDE2800ABE59F /* UnknownFieldSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnknownFieldSet.h; sourceTree = "<group>"; };
+		49FBCF9E1B2BDE2800ABE59F /* UnknownFieldSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UnknownFieldSet.m; sourceTree = "<group>"; };
+		49FBCF9F1B2BDE2800ABE59F /* UnknownFieldSetBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnknownFieldSetBuilder.h; sourceTree = "<group>"; };
+		49FBCFA01B2BDE2800ABE59F /* UnknownFieldSetBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UnknownFieldSetBuilder.m; sourceTree = "<group>"; };
+		49FBCFA21B2BDE2800ABE59F /* Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utilities.h; sourceTree = "<group>"; };
+		49FBCFA31B2BDE2800ABE59F /* Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utilities.m; sourceTree = "<group>"; };
+		49FBCFA41B2BDE2800ABE59F /* WireFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WireFormat.h; sourceTree = "<group>"; };
+		49FBCFA51B2BDE2800ABE59F /* WireFormat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WireFormat.m; sourceTree = "<group>"; };
 		4C0C0F0A1A314E060094CCD2 /* SessionModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SessionModule.h; sourceTree = "<group>"; };
 		4C0C0F0B1A314E060094CCD2 /* SessionModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SessionModule.m; sourceTree = "<group>"; };
 		4C12E7F41A77920A00F1DD54 /* Launch Screen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "Launch Screen.xib"; sourceTree = "<group>"; };
@@ -491,18 +585,6 @@
 		4C77C2941A88CFEC001E5885 /* BlurView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlurView.m; sourceTree = "<group>"; };
 		4C79D2B11AB7C19200706E32 /* GetDepartment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetDepartment.h; sourceTree = "<group>"; };
 		4C79D2B21AB7C19200706E32 /* GetDepartment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetDepartment.m; sourceTree = "<group>"; };
-		4C79D2B41AB7C9A500706E32 /* IMBaseDefine.pb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMBaseDefine.pb.h; sourceTree = "<group>"; };
-		4C79D2B51AB7C9A500706E32 /* IMBaseDefine.pb.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMBaseDefine.pb.m; sourceTree = "<group>"; };
-		4C79D2B61AB7C9A500706E32 /* IMBuddy.pb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMBuddy.pb.h; sourceTree = "<group>"; };
-		4C79D2B71AB7C9A500706E32 /* IMBuddy.pb.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMBuddy.pb.m; sourceTree = "<group>"; };
-		4C79D2B81AB7C9A500706E32 /* IMGroup.pb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMGroup.pb.h; sourceTree = "<group>"; };
-		4C79D2B91AB7C9A500706E32 /* IMGroup.pb.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMGroup.pb.m; sourceTree = "<group>"; };
-		4C79D2BA1AB7C9A500706E32 /* IMLogin.pb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMLogin.pb.h; sourceTree = "<group>"; };
-		4C79D2BB1AB7C9A500706E32 /* IMLogin.pb.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMLogin.pb.m; sourceTree = "<group>"; };
-		4C79D2BC1AB7C9A500706E32 /* IMMessage.pb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMMessage.pb.h; sourceTree = "<group>"; };
-		4C79D2BD1AB7C9A500706E32 /* IMMessage.pb.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMMessage.pb.m; sourceTree = "<group>"; };
-		4C79D2BE1AB7C9A500706E32 /* IMOther.pb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMOther.pb.h; sourceTree = "<group>"; };
-		4C79D2BF1AB7C9A500706E32 /* IMOther.pb.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMOther.pb.m; sourceTree = "<group>"; };
 		4C837EE7197F949300C3D758 /* DDAllUserAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDAllUserAPI.h; sourceTree = "<group>"; };
 		4C837EE8197F949300C3D758 /* DDAllUserAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDAllUserAPI.m; sourceTree = "<group>"; };
 		4C837F31197F94F400C3D758 /* ContactsModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactsModule.h; sourceTree = "<group>"; };
@@ -1039,12 +1121,86 @@
 				C4EBA73A192F279100B72723 /* CoreGraphics.framework in Frameworks */,
 				C4EBA73C192F279100B72723 /* UIKit.framework in Frameworks */,
 				C4EBA738192F279100B72723 /* Foundation.framework in Frameworks */,
+				78A6F58FCD5EF577C3429EA4 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		49FBCF711B2BDE2800ABE59F /* ProtocolBuffers */ = {
+			isa = PBXGroup;
+			children = (
+				49FBCF721B2BDE2800ABE59F /* ProtocolBuffers */,
+			);
+			path = ProtocolBuffers;
+			sourceTree = "<group>";
+		};
+		49FBCF721B2BDE2800ABE59F /* ProtocolBuffers */ = {
+			isa = PBXGroup;
+			children = (
+				49FBCF731B2BDE2800ABE59F /* AbstractMessage.h */,
+				49FBCF741B2BDE2800ABE59F /* AbstractMessage.m */,
+				49FBCF751B2BDE2800ABE59F /* AbstractMessageBuilder.h */,
+				49FBCF761B2BDE2800ABE59F /* AbstractMessageBuilder.m */,
+				49FBCF771B2BDE2800ABE59F /* Bootstrap.h */,
+				49FBCF781B2BDE2800ABE59F /* CodedInputStream.h */,
+				49FBCF791B2BDE2800ABE59F /* CodedInputStream.m */,
+				49FBCF7A1B2BDE2800ABE59F /* CodedOutputStream.h */,
+				49FBCF7B1B2BDE2800ABE59F /* CodedOutputStream.m */,
+				49FBCF7C1B2BDE2800ABE59F /* ConcreteExtensionField.h */,
+				49FBCF7D1B2BDE2800ABE59F /* ConcreteExtensionField.m */,
+				49FBCF7E1B2BDE2800ABE59F /* Descriptor.pb.h */,
+				49FBCF7F1B2BDE2800ABE59F /* Descriptor.pb.m */,
+				49FBCF801B2BDE2800ABE59F /* ExtendableMessage.h */,
+				49FBCF811B2BDE2800ABE59F /* ExtendableMessage.m */,
+				49FBCF821B2BDE2800ABE59F /* ExtendableMessageBuilder.h */,
+				49FBCF831B2BDE2800ABE59F /* ExtendableMessageBuilder.m */,
+				49FBCF841B2BDE2800ABE59F /* ExtensionField.h */,
+				49FBCF851B2BDE2800ABE59F /* ExtensionRegistry.h */,
+				49FBCF861B2BDE2800ABE59F /* ExtensionRegistry.m */,
+				49FBCF871B2BDE2800ABE59F /* Field.h */,
+				49FBCF881B2BDE2800ABE59F /* Field.m */,
+				49FBCF891B2BDE2800ABE59F /* ForwardDeclarations.h */,
+				49FBCF8A1B2BDE2800ABE59F /* GeneratedMessage.h */,
+				49FBCF8B1B2BDE2800ABE59F /* GeneratedMessage.m */,
+				49FBCF8C1B2BDE2800ABE59F /* GeneratedMessageBuilder.h */,
+				49FBCF8D1B2BDE2800ABE59F /* GeneratedMessageBuilder.m */,
+				49FBCF8E1B2BDE2800ABE59F /* Message.h */,
+				49FBCF8F1B2BDE2800ABE59F /* MessageBuilder.h */,
+				49FBCF901B2BDE2800ABE59F /* MutableExtensionRegistry.h */,
+				49FBCF911B2BDE2800ABE59F /* MutableExtensionRegistry.m */,
+				49FBCF921B2BDE2800ABE59F /* MutableField.h */,
+				49FBCF931B2BDE2800ABE59F /* MutableField.m */,
+				49FBCF941B2BDE2800ABE59F /* ObjectivecDescriptor.pb.h */,
+				49FBCF951B2BDE2800ABE59F /* ObjectivecDescriptor.pb.m */,
+				49FBCF961B2BDE2800ABE59F /* PBArray.h */,
+				49FBCF971B2BDE2800ABE59F /* PBArray.m */,
+				49FBCF981B2BDE2800ABE59F /* ProtocolBuffers.h */,
+				49FBCF991B2BDE2800ABE59F /* RingBuffer.h */,
+				49FBCF9A1B2BDE2800ABE59F /* RingBuffer.m */,
+				49FBCF9B1B2BDE2800ABE59F /* TextFormat.h */,
+				49FBCF9C1B2BDE2800ABE59F /* TextFormat.m */,
+				49FBCF9D1B2BDE2800ABE59F /* UnknownFieldSet.h */,
+				49FBCF9E1B2BDE2800ABE59F /* UnknownFieldSet.m */,
+				49FBCF9F1B2BDE2800ABE59F /* UnknownFieldSetBuilder.h */,
+				49FBCFA01B2BDE2800ABE59F /* UnknownFieldSetBuilder.m */,
+				49FBCFA11B2BDE2800ABE59F /* untitled folder */,
+				49FBCFA21B2BDE2800ABE59F /* Utilities.h */,
+				49FBCFA31B2BDE2800ABE59F /* Utilities.m */,
+				49FBCFA41B2BDE2800ABE59F /* WireFormat.h */,
+				49FBCFA51B2BDE2800ABE59F /* WireFormat.m */,
+			);
+			path = ProtocolBuffers;
+			sourceTree = "<group>";
+		};
+		49FBCFA11B2BDE2800ABE59F /* untitled folder */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "untitled folder";
+			sourceTree = "<group>";
+		};
 		4C0C0F091A314DF00094CCD2 /* Session */ = {
 			isa = PBXGroup;
 			children = (
@@ -1191,18 +1347,24 @@
 		4CC134E21A493FD90016A0C2 /* PB */ = {
 			isa = PBXGroup;
 			children = (
-				4C79D2B41AB7C9A500706E32 /* IMBaseDefine.pb.h */,
-				4C79D2B51AB7C9A500706E32 /* IMBaseDefine.pb.m */,
-				4C79D2B61AB7C9A500706E32 /* IMBuddy.pb.h */,
-				4C79D2B71AB7C9A500706E32 /* IMBuddy.pb.m */,
-				4C79D2B81AB7C9A500706E32 /* IMGroup.pb.h */,
-				4C79D2B91AB7C9A500706E32 /* IMGroup.pb.m */,
-				4C79D2BA1AB7C9A500706E32 /* IMLogin.pb.h */,
-				4C79D2BB1AB7C9A500706E32 /* IMLogin.pb.m */,
-				4C79D2BC1AB7C9A500706E32 /* IMMessage.pb.h */,
-				4C79D2BD1AB7C9A500706E32 /* IMMessage.pb.m */,
-				4C79D2BE1AB7C9A500706E32 /* IMOther.pb.h */,
-				4C79D2BF1AB7C9A500706E32 /* IMOther.pb.m */,
+				49FBCEBB1B29DE3200ABE59F /* IMBaseDefine.pb.h */,
+				49FBCEBC1B29DE3200ABE59F /* IMBaseDefine.pb.m */,
+				49FBCEBD1B29DE3200ABE59F /* IMBuddy.pb.h */,
+				49FBCEBE1B29DE3200ABE59F /* IMBuddy.pb.m */,
+				49FBCEBF1B29DE3200ABE59F /* IMFile.pb.h */,
+				49FBCEC01B29DE3200ABE59F /* IMFile.pb.m */,
+				49FBCEC11B29DE3200ABE59F /* IMGroup.pb.h */,
+				49FBCEC21B29DE3200ABE59F /* IMGroup.pb.m */,
+				49FBCEC31B29DE3200ABE59F /* IMLogin.pb.h */,
+				49FBCEC41B29DE3200ABE59F /* IMLogin.pb.m */,
+				49FBCEC51B29DE3200ABE59F /* IMMessage.pb.h */,
+				49FBCEC61B29DE3200ABE59F /* IMMessage.pb.m */,
+				49FBCEC71B29DE3200ABE59F /* IMOther.pb.h */,
+				49FBCEC81B29DE3200ABE59F /* IMOther.pb.m */,
+				49FBCEC91B29DE3200ABE59F /* IMServer.pb.h */,
+				49FBCECA1B29DE3200ABE59F /* IMServer.pb.m */,
+				49FBCECB1B29DE3200ABE59F /* IMSwitchService.pb.h */,
+				49FBCECC1B29DE3200ABE59F /* IMSwitchService.pb.m */,
 			);
 			name = PB;
 			sourceTree = "<group>";
@@ -2066,6 +2228,7 @@
 		C4EBA72B192F279100B72723 = {
 			isa = PBXGroup;
 			children = (
+				49FBCF711B2BDE2800ABE59F /* ProtocolBuffers */,
 				4C6BBC1D1A7F532F0028B892 /* Security */,
 				4C12E7F41A77920A00F1DD54 /* Launch Screen.xib */,
 				4C9C7FDB1A4A4CBC00A58066 /* LevelDB */,
@@ -2402,7 +2565,6 @@
 				C493E0221962A50A00B39106 /* DDUnrequestSuperAPI.m in Sources */,
 				4C837F49197F95A400C3D758 /* GroupEntity.m in Sources */,
 				C493E0781962A50A00B39106 /* cb_search.c in Sources */,
-				4C79D2C31AB7C9A500706E32 /* IMLogin.pb.m in Sources */,
 				C493E08C1962A50A00B39106 /* lsp_tables_nb.c in Sources */,
 				C493E0381962A50A00B39106 /* AQGridViewUpdateInfo.m in Sources */,
 				C493DFB91962A50900B39106 /* NSIndexSet+AQIndexesOutsideSet.m in Sources */,
@@ -2418,6 +2580,7 @@
 				C493E05B1962A50A00B39106 /* EmotionsViewController.m in Sources */,
 				C493E07C1962A50A00B39106 /* exc_5_256_table.c in Sources */,
 				C493E07B1962A50A00B39106 /* exc_20_32_table.c in Sources */,
+				49FBCED11B29DE3200ABE59F /* IMLogin.pb.m in Sources */,
 				C493E0A41962A50A00B39106 /* PlayerManager.m in Sources */,
 				C493E0521962A50A00B39106 /* DDChatVoiceCell.m in Sources */,
 				C493E0231962A50A00B39106 /* NSStream+NSStreamAddition.m in Sources */,
@@ -2425,7 +2588,8 @@
 				4CE95F3119AAD0E8000CD0C6 /* ContactAvatarTools.m in Sources */,
 				C493DFBE1962A50900B39106 /* NSString+JSMessagesView.m in Sources */,
 				4C98355419C06F6D00DE8874 /* EditContactsCell.m in Sources */,
-				4C79D2C11AB7C9A500706E32 /* IMBuddy.pb.m in Sources */,
+				49FBCFA91B2BDE2800ABE59F /* CodedOutputStream.m in Sources */,
+				49FBCECE1B29DE3200ABE59F /* IMBuddy.pb.m in Sources */,
 				C493E08F1962A50A00B39106 /* modes.c in Sources */,
 				C493E0771962A50A00B39106 /* buffer.c in Sources */,
 				C493DFC31962A50900B39106 /* UIImage+JSMessagesView.m in Sources */,
@@ -2438,6 +2602,7 @@
 				C493E0251962A50A00B39106 /* HeartbeatAPI.m in Sources */,
 				C493E0961962A50A00B39106 /* scal.c in Sources */,
 				C493E0741962A50A00B39106 /* bitwise.c in Sources */,
+				49FBCFB21B2BDE2800ABE59F /* MutableExtensionRegistry.m in Sources */,
 				C485E8EB19F7CB630061DAFE /* OpenSourcePRViewController.m in Sources */,
 				4CC41F831A4D120600DE434F /* PublicProfileCell.m in Sources */,
 				C493E0291962A50A00B39106 /* GetUnreadMessagesAPI.m in Sources */,
@@ -2456,7 +2621,9 @@
 				C493E0A01962A50A00B39106 /* AQRecorder.mm in Sources */,
 				4CB8F6D319A7171800C4C27D /* DDContactsCell.m in Sources */,
 				4CC35AA91A83097200E6224D /* GetLatestMsgId.m in Sources */,
+				49FBCFA71B2BDE2800ABE59F /* AbstractMessageBuilder.m in Sources */,
 				C493E08E1962A50A00B39106 /* mdf.c in Sources */,
+				49FBCFBB1B2BDE2800ABE59F /* WireFormat.m in Sources */,
 				C493DFD31962A50900B39106 /* DDTcpServer.m in Sources */,
 				C493E0901962A50A00B39106 /* modes_wb.c in Sources */,
 				C493E04E1962A50A00B39106 /* DDChatImageCell.m in Sources */,
@@ -2468,17 +2635,22 @@
 				C493DFC51962A50900B39106 /* UIView+DDAddition.m in Sources */,
 				C493E0201962A50A00B39106 /* DDTcpClientManager.m in Sources */,
 				C493E0B21962A54F00B39106 /* main.m in Sources */,
+				49FBCFAB1B2BDE2800ABE59F /* Descriptor.pb.m in Sources */,
 				C493E0181962A50A00B39106 /* DDSundriesCenter.m in Sources */,
 				C493E0151962A50A00B39106 /* DDClientStateMaintenanceManager.m in Sources */,
 				C493E07D1962A50A00B39106 /* exc_5_64_table.c in Sources */,
+				49FBCFAA1B2BDE2800ABE59F /* ConcreteExtensionField.m in Sources */,
 				C493E0A81962A50A00B39106 /* RawAudioDataPlayer.m in Sources */,
 				C493DFC71962A50900B39106 /* SessionEntity.m in Sources */,
 				4CB3D92119F4FA7F00DC9B9D /* SearchContentViewController.m in Sources */,
+				49FBCED41B29DE3200ABE59F /* IMServer.pb.m in Sources */,
 				C493E0171962A50A00B39106 /* DDNotificationHelp.m in Sources */,
 				C493E0691962A50A00B39106 /* LoginModule.m in Sources */,
 				4CA50CD019A47C690032DE24 /* DDSearch.m in Sources */,
 				C485E8E719F78D800061DAFE /* FinderViewController.m in Sources */,
 				C493E0991962A50A00B39106 /* speex.c in Sources */,
+				49FBCFB11B2BDE2800ABE59F /* GeneratedMessageBuilder.m in Sources */,
+				49FBCFB71B2BDE2800ABE59F /* TextFormat.m in Sources */,
 				4CD1566B1998A36300B11233 /* MsgReadACKAPI.m in Sources */,
 				4CD3EDDB1A0C6FE100795A0C /* NSString+Additions.m in Sources */,
 				C493DFCC1962A50900B39106 /* DDAFClient.m in Sources */,
@@ -2486,8 +2658,8 @@
 				C493E0931962A50A00B39106 /* quant_lsp.c in Sources */,
 				C493E0911962A50A00B39106 /* nb_celp.c in Sources */,
 				C493E0941962A50A00B39106 /* resample.c in Sources */,
+				49FBCECF1B29DE3200ABE59F /* IMFile.pb.m in Sources */,
 				C493DFC61962A50900B39106 /* DDMessageEntity.mm in Sources */,
-				4C79D2C41AB7C9A500706E32 /* IMMessage.pb.m in Sources */,
 				C493E08A1962A50A00B39106 /* lpc.c in Sources */,
 				4C3A75041A8C85C1009400A2 /* DBHelper.mm in Sources */,
 				C493E0341962A50A00B39106 /* AQGridViewAnimatorItem.m in Sources */,
@@ -2504,9 +2676,12 @@
 				C493E0921962A50A00B39106 /* preprocess.c in Sources */,
 				4C837EE9197F949300C3D758 /* DDAllUserAPI.m in Sources */,
 				C493E05D1962A50A00B39106 /* AnalysisImage.m in Sources */,
+				49FBCED51B29DE3200ABE59F /* IMSwitchService.pb.m in Sources */,
+				49FBCED01B29DE3200ABE59F /* IMGroup.pb.m in Sources */,
 				C493DFBD1962A50900B39106 /* NSString+DDPath.m in Sources */,
 				C493E09B1962A50A00B39106 /* speex_header.c in Sources */,
 				4C5CA06019C13341007CE792 /* DDDeleteMemberFromGroupAPI.m in Sources */,
+				49FBCFB31B2BDE2800ABE59F /* MutableField.m in Sources */,
 				C493DFD71962A50900B39106 /* DDUserModule.m in Sources */,
 				C493E0611962A50A00B39106 /* ChattingModule.m in Sources */,
 				4C21749719C197F3006F4BFC /* DDUserDetailInfoAPI.m in Sources */,
@@ -2518,20 +2693,25 @@
 				4CA50CC919A435E20032DE24 /* DDPersonEditCollectionCell.m in Sources */,
 				C493E0881962A50A00B39106 /* kiss_fft.c in Sources */,
 				4CF7D530198A268500F0272B /* JSDismissiveTextView.m in Sources */,
-				4C79D2C01AB7C9A500706E32 /* IMBaseDefine.pb.m in Sources */,
+				49FBCECD1B29DE3200ABE59F /* IMBaseDefine.pb.m in Sources */,
 				C493E08D1962A50A00B39106 /* ltp.c in Sources */,
+				49FBCFAC1B2BDE2800ABE59F /* ExtendableMessage.m in Sources */,
+				49FBCFA81B2BDE2800ABE59F /* CodedInputStream.m in Sources */,
 				4CF7D531198A268500F0272B /* JSMessageInputView.m in Sources */,
 				C493DFB61962A50900B39106 /* NSDate+DDAddition.m in Sources */,
+				49FBCFBA1B2BDE2800ABE59F /* Utilities.m in Sources */,
+				49FBCFAF1B2BDE2800ABE59F /* Field.m in Sources */,
 				4C837F3F197F951600C3D758 /* DDChattingEditViewController.m in Sources */,
 				4CE135E819C91EB20098A5E4 /* SendPushTokenAPI.m in Sources */,
 				C485E8EE19F7D6250061DAFE /* WifiViewController.m in Sources */,
+				49FBCFB91B2BDE2800ABE59F /* UnknownFieldSetBuilder.m in Sources */,
 				4C3A74FF1A8C8577009400A2 /* Sequencer.m in Sources */,
 				4C5E374419D408CE00D1042B /* GroupAvatarImage.m in Sources */,
 				C493E0801962A50A00B39106 /* filterbank.c in Sources */,
-				4C79D2C51AB7C9A500706E32 /* IMOther.pb.m in Sources */,
 				C493E0A91962A50A00B39106 /* RecorderManager.mm in Sources */,
 				C493E0A71962A50A00B39106 /* CAXException.cpp in Sources */,
 				4CB58EAC1991FF98006B24D3 /* DDepartment.m in Sources */,
+				49FBCFB61B2BDE2800ABE59F /* RingBuffer.m in Sources */,
 				C493E0361962A50A00B39106 /* AQGridViewController.m in Sources */,
 				4CFC9FB21A4412E3002E7A5A /* MsgReadNotify.m in Sources */,
 				C493E0841962A50A00B39106 /* hexc_10_32_table.c in Sources */,
@@ -2541,28 +2721,35 @@
 				C493DFC11962A50900B39106 /* UIColor+JSMessagesView.m in Sources */,
 				4C3A75121A8C865A009400A2 /* DDAppDelegate.m in Sources */,
 				4C5486CF1A70EA8000ED8735 /* DDEmotionCell.m in Sources */,
+				49FBCFAE1B2BDE2800ABE59F /* ExtensionRegistry.m in Sources */,
 				4C5D70571990C1AE009AF959 /* DDDepartmentAPI.m in Sources */,
 				C493E0321962A50A00B39106 /* DDReceiveMessageAPI.m in Sources */,
 				4CD1566D1998A36300B11233 /* DDReceiveGroupAddMemberAPI.m in Sources */,
 				C493E04D1962A50A00B39106 /* DDChatBaseCell.m in Sources */,
 				C493E0A51962A50A00B39106 /* CADebugMacros.cpp in Sources */,
 				C493E0951962A50A00B39106 /* sb_celp.c in Sources */,
+				49FBCFB41B2BDE2800ABE59F /* ObjectivecDescriptor.pb.m in Sources */,
 				C493E02C1962A50A00B39106 /* DDSendPhotoMessageAPI.m in Sources */,
 				C493E0141962A50A00B39106 /* DDClientState.m in Sources */,
 				C493DFD21962A50900B39106 /* DDMsgServer.m in Sources */,
+				49FBCFA61B2BDE2800ABE59F /* AbstractMessage.m in Sources */,
+				49FBCFB81B2BDE2800ABE59F /* UnknownFieldSet.m in Sources */,
 				4C39B8071974EF18001B4AEF /* MainViewControll.m in Sources */,
 				C493E0761962A50A00B39106 /* bits.c in Sources */,
 				4C3A750F1A8C8650009400A2 /* TTHttpsRequest.m in Sources */,
 				4C77C2911A8852F8001E5885 /* ScanQRCodePage.m in Sources */,
 				C493E0651962A50A00B39106 /* RecordingView.m in Sources */,
 				C493E02A1962A50A00B39106 /* SendMessageAPI.m in Sources */,
+				49FBCED31B29DE3200ABE59F /* IMOther.pb.m in Sources */,
 				4CD156781998B70D00B11233 /* DDGroupModule.m in Sources */,
 				4C837F3A197F94F400C3D758 /* PublicProfileViewControll.m in Sources */,
+				49FBCFAD1B2BDE2800ABE59F /* ExtendableMessageBuilder.m in Sources */,
 				C493E0581962A50A00B39106 /* ChatUtilityViewController.m in Sources */,
 				C493E01E1962A50A00B39106 /* DDSendBuffer.m in Sources */,
 				4C4657BD19EF5DC300334DD2 /* UnAckMessageManager.m in Sources */,
 				4CB23CAB19B457AD004FCF10 /* EditGroupViewController.m in Sources */,
 				4CA50CCD19A47B9A0032DE24 /* SpellLibrary.m in Sources */,
+				49FBCED21B29DE3200ABE59F /* IMMessage.pb.m in Sources */,
 				4CA0BA011A5C0E2800102EC7 /* NSData+Conversion.m in Sources */,
 				4C5CC9B81A38221C0067B124 /* RemoveSessionAPI.m in Sources */,
 				4C92734819EB9C8200F6C370 /* NetwrokStatusNotifyUI.m in Sources */,
@@ -2578,7 +2765,6 @@
 				C493E0371962A50A00B39106 /* AQGridViewData.m in Sources */,
 				C493E09F1962A50A00B39106 /* window.c in Sources */,
 				C493E01F1962A50A00B39106 /* DDSuperAPI.m in Sources */,
-				4C79D2C21AB7C9A500706E32 /* IMGroup.pb.m in Sources */,
 				C493E05F1962A50A00B39106 /* ChattingMainViewController.m in Sources */,
 				4C1CEEC81A3581160015C355 /* GetMessageQueueAPI.m in Sources */,
 				4C0C0F0C1A314E060094CCD2 /* SessionModule.m in Sources */,
@@ -2592,10 +2778,12 @@
 				C493E01D1962A50A00B39106 /* DDReachability.m in Sources */,
 				4CB6AA0D198F7F550075BDB4 /* ChatEditTableViewCell.m in Sources */,
 				4C3A750C1A8C861E009400A2 /* RuntimeStatus.m in Sources */,
+				49FBCFB01B2BDE2800ABE59F /* GeneratedMessage.m in Sources */,
 				C493DFB81962A50900B39106 /* NSDictionary+Safe.m in Sources */,
 				C493E0A21962A50A00B39106 /* Decapsulator.m in Sources */,
 				C493E0591962A50A00B39106 /* EmojiFaceView.m in Sources */,
 				C493E09A1962A50A00B39106 /* speex_callbacks.c in Sources */,
+				49FBCFB51B2BDE2800ABE59F /* PBArray.m in Sources */,
 				C493E07E1962A50A00B39106 /* exc_8_128_table.c in Sources */,
 				C493DFBF1962A50900B39106 /* UIButton+JSMessagesView.m in Sources */,
 				C493E0351962A50A00B39106 /* AQGridViewCell.m in Sources */,
@@ -2717,11 +2905,9 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "IOSDuoduo/TeamTalk-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"COCOAPODS=1",
-					"DEBUG=1",
-				);
+				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
 				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
 					"\"${PODS_ROOT}/Headers/Public\"",
 					"\"${PODS_ROOT}/Headers/Public/AFNetworking\"",
 					"\"${PODS_ROOT}/Headers/Public/DACircularProgress\"",
@@ -2729,22 +2915,55 @@
 					"\"${PODS_ROOT}/Headers/Public/HPGrowingTextView\"",
 					"\"${PODS_ROOT}/Headers/Public/MBProgressHUD\"",
 					"\"${PODS_ROOT}/Headers/Public/PSTCollectionView\"",
-					"\"${PODS_ROOT}/Headers/Public/ProtocolBuffers\"",
-					"\"${PODS_ROOT}/Headers/Public/ProtocolBuffers/ProtocolBuffers\"",
 					"\"${PODS_ROOT}/Headers/Public/SDWebImage\"",
 					"\"${PODS_ROOT}/Headers/Public/leveldb-library\"",
 					"\"${PODS_ROOT}/Headers/Public/leveldb-library/leveldb\"",
 					"\"${PODS_ROOT}/leveldb-library/\"",
 					"\"${PODS_ROOT}/leveldb-library/include\"",
+					./ProtocolBuffers,
 				);
 				INFOPLIST_FILE = "TeamTalk-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
-					"$(PROJECT_DIR)/Pods/build/Debug-iphoneos",
+					"$(PROJECT_DIR)/build/Debug-iphonesimulator/",
 					"$(PROJECT_DIR)/security",
+					/usr/local/Cellar/protocolbuffer/2.6.1/lib,
 				);
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/AFNetworking\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/DACircularProgress\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/FMDB\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/HPGrowingTextView\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/MBProgressHUD\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/MWPhotoBrowser\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/PSTCollectionView\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/SCLAlertView-Objective-C\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/SDWebImage\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/leveldb-library\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/leveldb-library/leveldb\"",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(inherited)",
+					"$(OTHER_CFLAGS)",
+				);
+				OTHER_LIBTOOLFLAGS = "$(inherited) $(OTHER_LDFLAGS)";
 				PRODUCT_NAME = TeamTalk;
 				PROVISIONING_PROFILE = "09d5788e-c95b-4682-8363-e5dba92ce932";
 				TARGETED_DEVICE_FAMILY = 1;
@@ -2766,7 +2985,9 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "IOSDuoduo/TeamTalk-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
 				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
 					"\"${PODS_ROOT}/Headers/Public\"",
 					"\"${PODS_ROOT}/Headers/Public/AFNetworking\"",
 					"\"${PODS_ROOT}/Headers/Public/DACircularProgress\"",
@@ -2774,22 +2995,55 @@
 					"\"${PODS_ROOT}/Headers/Public/HPGrowingTextView\"",
 					"\"${PODS_ROOT}/Headers/Public/MBProgressHUD\"",
 					"\"${PODS_ROOT}/Headers/Public/PSTCollectionView\"",
-					"\"${PODS_ROOT}/Headers/Public/ProtocolBuffers\"",
-					"\"${PODS_ROOT}/Headers/Public/ProtocolBuffers/ProtocolBuffers\"",
 					"\"${PODS_ROOT}/Headers/Public/SDWebImage\"",
 					"\"${PODS_ROOT}/Headers/Public/leveldb-library\"",
 					"\"${PODS_ROOT}/Headers/Public/leveldb-library/leveldb\"",
 					"\"${PODS_ROOT}/leveldb-library/\"",
 					"\"${PODS_ROOT}/leveldb-library/include\"",
+					./ProtocolBuffers,
 				);
 				INFOPLIST_FILE = "TeamTalk-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
-					"$(PROJECT_DIR)/Pods/build/Debug-iphoneos",
+					"$(PROJECT_DIR)/build/Debug-iphonesimulator/",
 					"$(PROJECT_DIR)/security",
+					/usr/local/Cellar/protocolbuffer/2.6.1/lib,
 				);
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/AFNetworking\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/DACircularProgress\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/FMDB\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/HPGrowingTextView\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/MBProgressHUD\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/MWPhotoBrowser\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/PSTCollectionView\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/SCLAlertView-Objective-C\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/SDWebImage\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/leveldb-library\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/leveldb-library/leveldb\"",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(inherited)",
+					"$(OTHER_CFLAGS)",
+				);
+				OTHER_LIBTOOLFLAGS = "$(inherited) $(OTHER_LDFLAGS)";
 				PRODUCT_NAME = TeamTalk;
 				PROVISIONING_PROFILE = "09d5788e-c95b-4682-8363-e5dba92ce932";
 				TARGETED_DEVICE_FAMILY = 1;
